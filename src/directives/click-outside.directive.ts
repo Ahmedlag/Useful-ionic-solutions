@@ -4,6 +4,10 @@ import {
 } from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
 
+/*
+ * Emits when you click outside of the parent element. Useful for closing lists, or custom element closing.
+ */
+
 @Injectable()
 @Directive({selector: '[clickOutside]'})
 export class ClickOutsideDirective implements OnInit, OnChanges, OnDestroy {

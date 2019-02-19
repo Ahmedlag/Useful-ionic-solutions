@@ -1,5 +1,9 @@
 import _ from 'lodash';
 
+/*
+ * Deep Diff between two objects, using Lodash - Supports nested arrays.
+ */
+
 export function getDiff(compareObject, baseObject) {
   function changes(object, base) {
     let arrayIndexCounter = 0;

@@ -1,0 +1,4 @@
+<img [class]="filter.class + ' imagePreview'"
+     (swipe)="swipeFilter($event.direction, media)"
+     [src]="DomSanitizer.bypassSecurityTrustResourceUrl(media.imageSrc)"
+     [id]="'media-' + media?.id" class="imagePreview" #imageFilter>

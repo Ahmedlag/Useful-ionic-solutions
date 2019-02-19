@@ -1,5 +1,6 @@
 
 /*
+ * Allows you to extend & customize the native hammerjs configuration.
  * You have to put all of this into your app.module.ts file.
  * provides: [
  *   { provide: HAMMER_GESTURE_CONFIG, useClass: CustomHammerConfig },
