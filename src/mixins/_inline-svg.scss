@@ -1,0 +1,19 @@
+/*
+ * The purpose of this mixin, is to make inlining svg's a lot easier.
+ * This way we don't have to copy and paste this same CSS over and over...
+ * Also it's just easier to remember.
+ *
+ * $height and $width are required
+ * $fill is optional, but defaults to #fff;
+ */
+
+@mixin inlineSvg($height, $width, $fill: #fff) {
+  display: inline-block;
+  svg {
+    height: $height;
+    width: $width;
+    .fill {
+      fill: $fill;
+    }
+  }
+}

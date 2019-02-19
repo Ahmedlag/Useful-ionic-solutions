@@ -1,0 +1,19 @@
+/*
+ * This pushes elements from the bottom (when added to an array for example), instead of the top (which is the default).
+ * Example:
+  <div class="push-from-bottom-container"> <!-- This is the class that 'tricks' the html to think it's in reverse -->
+    <div class="message-container"> <!-- This undo's the reverse trick we played, and orders the messages correctly -->
+      <messages *ngFor="let m of messages"></messages> <!-- This is the message list that we're wanting to have properly order, but push from bottom. -->
+    </div>
+  </div
+ */
+
+@mixin pushFromBottom() {
+  overflow: auto;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.push-from-bottom-container {
+  @include pushFromBottom();
+}

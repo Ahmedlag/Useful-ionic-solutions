@@ -1,0 +1,6 @@
+@mixin set-icon($icon-path, $padding-left: 50px, $height: 30px) {
+  background-repeat: no-repeat !important; // Don't repeat the icon.
+  padding-left: $padding-left !important; // Makes the text display to the left of the icon.
+  height: $height; // Set the icon height.
+  background-image: url($icon-path) !important; // Set the icon image.
+}

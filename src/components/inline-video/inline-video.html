@@ -1,0 +1,6 @@
+<div tappable (tap)="changeVideoAudio(media?.id)">
+    <video playsinline loop [muted]="'muted'" preload="auto" muted="muted"
+           [poster]="media?.src | videoPoster" [id]="'media-' + media?.id" class="video-media">
+        <source [src]="media.src" type="video/mp4" src="">
+    </video>
+</div>

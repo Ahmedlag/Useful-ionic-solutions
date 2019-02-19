@@ -1,0 +1,10 @@
+inline-video {
+  .video-media {
+    max-width: 100vw !important;
+    min-width: 100vw !important;
+    width: 100vw !important;
+    height: 47.3vh !important;
+    position: relative;
+    object-fit: fill; // Breaks the video aspect ratio so that it fits correctly.
+  }
+}
