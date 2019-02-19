@@ -27,9 +27,9 @@ const PERSONAL_NAME_REGEXP = '^[\\w.\']{2,}(\\s[\\w.\']{2,})+$';
  * Replaces the word "fuck" and it's variations, with "love".
  *
  */
-
 const FUCK_FILTER_REGEXP = '\\b(?:(?:ass+(?:\\s+)?|i+(?:\\s+)?|butt+(?:\\s+)?|mo(?:(?:m|t|d)h?(?:e|a)?r?)(?:\\s+)?)?f(?:(?:\\s+)?u+)?(?:(?:\\s+)?c+)?(?:(?:\\s+)?k+)?(?:(?:e|a)(?:r+)?|i(?:n(?:g)?)?)?(?:s+)?(?:\\s+)?(?:hole|head|(?:yo?)?u?)?)+\\b';
 
 export const regexValidators = {
-  email: PURE_EMAIL_REGEXP,
+  email: PURE_EMAIL_REGEXP, USERNAME_REGEXP, PHONE_NUM_REGEXP,
+  AREA_PHONE_NUM_REGEXP, PERSONAL_NAME_REGEXP, FUCK_FILTER_REGEXP
 };
