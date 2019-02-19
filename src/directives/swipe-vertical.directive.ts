@@ -11,6 +11,9 @@ declare var Hammer: any;
  IMPORTANT:
  [swipeUp] and [swipeDown] MUST be added in a component which
  already has "swipe-vertical".
+
+ You may also have to import hammerjs into your main.ts file, but I'm not sure if that is actually required...
+ import 'hammerjs';
  */
 
 @Directive({
