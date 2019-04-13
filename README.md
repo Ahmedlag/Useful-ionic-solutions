@@ -37,6 +37,7 @@ A curated list of useful Ionic solutions.
 * [TrackBy](https://github.com/Bengejd/Useful-ionic-solutions/tree/master/src/ionic-misc) - Prevent unnecessary DOM paintings on changes.
 * [Remove Console Logs](https://github.com/Bengejd/Useful-ionic-solutions/tree/master/src/ionic-misc) - Remove Console Logs from Production builds.
 * [Customized Ionic Gestures](https://github.com/Bengejd/Useful-ionic-solutions/blob/master/src/ionic-misc/misc.ts) - Extend the native Ionic Gesture list, with custom properties!
+* [Better Live Reloading](#) - COMING SOON
 
 ### [Mixins](https://github.com/Bengejd/Useful-ionic-solutions/tree/master/src/mixins)
 * [Alignment](https://github.com/Bengejd/Useful-ionic-solutions/blob/master/src/mixins/_alignment.scss) - Align an item vertically, horizontally or both!
@@ -64,3 +65,33 @@ A curated list of useful Ionic solutions.
 * [Phone Number](https://github.com/Bengejd/Useful-ionic-solutions/blob/90f957ec643b836e01551fc7e37c21464ed19f6b/src/validators/validator.ts#L22) - Phone Number REGEX
 * [Area Phone Number](https://github.com/Bengejd/Useful-ionic-solutions/blob/90f957ec643b836e01551fc7e37c21464ed19f6b/src/validators/validator.ts#L23) - Phone Number with Area Code REGEXP
 * [Personal Name](https://github.com/Bengejd/Useful-ionic-solutions/blob/90f957ec643b836e01551fc7e37c21464ed19f6b/src/validators/validator.ts#L24) - Personal Name REGEXP
+
+### [Plugins](#)
+* [ImagePicker](#) - COMING SOON
+* [Base64-to-gallery](https://ionicframework.com/docs/native/base64-to-gallery) - COMING SOON
+* [Battery-Status](https://ionicframework.com/docs/native/battery-status) - COMING SOON
+* [Base64 encoder](https://ionicframework.com/docs/native/base64) - COMING SOON
+* [Brightness](https://ionicframework.com/docs/native/brightness) - COMING SOON
+* [Browser-tab](https://ionicframework.com/docs/native/browser-tab) - COMING SOON
+* [Native Camera](https://ionicframework.com/docs/native/camera) - COMING SOON
+* [Clipboard](https://ionicframework.com/docs/native/clipboard) - COMING SOON
+* [Crop](https://ionicframework.com/docs/native/crop) - COMING SOON
+* [Date-picker](https://ionicframework.com/docs/native/date-picker) - COMING SOON
+* [Diagnostics](https://ionicframework.com/docs/native/diagnostic) - COMING SOON
+* [File Encryption](https://ionicframework.com/docs/native/file-encryption) - COMING SOON
+* [File Opener](https://ionicframework.com/docs/native/file-opener) - COMING SOON
+* [File](https://ionicframework.com/docs/native/file) - COMING SOON
+* [File Transfer](https://ionicframework.com/docs/native/file-transfer) - COMING SOON
+* [Image Resizer](https://ionicframework.com/docs/native/image-resizer) - COMING SOON
+* [LastCam](https://ionicframework.com/docs/native/last-cam) - COMING SOON
+* [Local Notifications](https://ionicframework.com/docs/native/local-notifications) - COMING SOON
+* [Media Capture](https://ionicframework.com/docs/native/media-capture) - COMING SOON
+* [Media](https://ionicframework.com/docs/native/media) - COMING SOON
+* [Native Keyboard](https://ionicframework.com/docs/native/native-keyboard) - COMING SOON
+* [One Signal](https://ionicframework.com/docs/native/onesignal) - COMING SOON
+* [Photo Library](https://ionicframework.com/docs/native/photo-library) - COMING SOON
+* [Photo Viewer](https://ionicframework.com/docs/native/photo-viewer) - COMING SOON
+* [Vibration](https://ionicframework.com/docs/native/vibration) - COMING SOON
+* [Video Editor](https://ionicframework.com/docs/native/video-editor) - COMING SOON
+* [Video Player](https://ionicframework.com/docs/native/video-player) - COMING SOON
+
