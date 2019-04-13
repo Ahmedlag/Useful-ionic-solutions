@@ -9,6 +9,8 @@ import {Directive} from '@angular/core';
  * and not any data retrial / presentation, even though it's imported as one...weird I know.
  */
 
+// TODO: Rework this for ionic 4 - https://medium.com/@JordanBenge/ionic-4-hiding-showing-tabs-on-certain-pages-31cf2380a5db?source=your_stories_page
+
 
 @Directive({
   selector: '[tab-bar-directive]' // Attribute selector
